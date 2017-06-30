@@ -137,16 +137,24 @@ div.searchbar input{
     font-size: 12px;
 }
 .searchtop{
-    margin-top: 70px;
+    margin-top: 73px;
     overflow: hidden;
-    border-radius: 8px;
-    width: 60px;
-    height: 30px;
-    background-color: #0099ff;
-    text-align: center;
-
-
+    padding-left: 5px;
 }
+
+div.searchtop input[type=submit]{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    border:0;
+    background-color: #0099ff;
+    color:white;
+}
+
+
 a#onlyserach{
     text-decoration: none;
     color:white;
